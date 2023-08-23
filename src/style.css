@@ -9,27 +9,48 @@ body {
 }
 
 
+/*ul {
+    width: 500px;
+    height: 80px;
+    padding: 1px;
+    border: 1px solid rgb(223, 41, 153);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-sizing: border-box;
+
+    }*/
 
 
 li[class] {
+    list-style: none; 
+    list-style-position: inside;
+    display: flex;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 90%;
     color:aliceblue;
-    box-sizing: content-box;
-    border-width: 1px;
-    
-
+    box-sizing: border-box;
+    /*width: 75px;
+    height: 75px;*/
+    border: 5px solid yellow;
+    padding: 5px;
+    margin: 1.5px;
+    justify-content: space-between;
+   
 }
+
 
 li.p {
     background-color: blue;
 
 }
 
-li[class="n"]  {
+li.n {
     background-color:rgb(61, 122, 55);
+
 }
 
-li[class="c"]  {
+li.c {
     background-color:rgb(201, 98, 15);
 
 }
