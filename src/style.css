@@ -1,0 +1,39 @@
+header {
+    color:blueviolet;
+}
+
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color:rgb(175, 174, 224);
+
+}
+
+
+
+
+li[class] {
+    font-family: Arial, Helvetica, sans-serif;
+    color:aliceblue;
+    box-sizing: content-box;
+    border-width: 1px;
+    
+
+}
+
+li[class="p"] {
+    background-color: blue;
+
+}
+
+li[class="n"]  {
+    background-color:rgb(61, 122, 55);
+}
+
+li[class="c"]  {
+    background-color:rgb(201, 98, 15);
+
+}
+
+footer {
+    color:rgb(192, 0, 0)
+}
