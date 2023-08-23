@@ -9,7 +9,7 @@ body {
 }
 
 
-/*ul {
+ul {
     width: 500px;
     height: 80px;
     padding: 1px;
@@ -19,7 +19,7 @@ body {
     justify-content: space-between;
     box-sizing: border-box;
 
-    }*/
+    }
 
 
 li[class] {
@@ -30,8 +30,8 @@ li[class] {
     font-size: 90%;
     color:aliceblue;
     box-sizing: border-box;
-    /*width: 75px;
-    height: 75px;*/
+    width: 75px;
+    height: 75px;
     border: 5px solid yellow;
     padding: 5px;
     margin: 1.5px;
