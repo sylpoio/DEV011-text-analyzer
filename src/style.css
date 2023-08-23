@@ -20,7 +20,7 @@ li[class] {
 
 }
 
-li[class="p"] {
+li.p {
     background-color: blue;
 
 }
