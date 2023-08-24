@@ -4,16 +4,16 @@ header {
 
 body {
     font-family:Georgia, 'Times New Roman', Times, serif;
-    background-color:rgb(175, 174, 224);
+   
 
 }
 
 
 ul {
-    width: 500px;
+    width: 600px;
     height: 80px;
     padding: 1px;
-    border: 1px solid rgb(223, 41, 153);
+    /*border: 1px solid rgb(223, 41, 153);*/
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -27,12 +27,12 @@ li[class] {
     list-style-position: inside;
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 90%;
+    font-size: 80%;
     color:aliceblue;
     box-sizing: border-box;
     width: 75px;
     height: 75px;
-    border: 5px solid yellow;
+    /*border: 5px solid yellow;*/
     padding: 5px;
     margin: 1.5px;
     justify-content: space-between;
