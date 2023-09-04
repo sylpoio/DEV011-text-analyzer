@@ -33,12 +33,13 @@ textarea.addEventListener("keyup", () => {
   characterCountResult.innerHTML = " Caracteres: " + analyzer.getCharacterCount(textarea.value);
   characterCountExcludingSpacesResult.innerHTML = "Caracteres excluyendo espacios y signos de puntuación: " + analyzer.getCharacterCountExcludingSpaces(textarea.value);
   numberCountResult.innerHTML = "Números: " + analyzer.getNumberCount(textarea.value);
-  numberSumResult.innerHTML = "Suma de números:" + analyzer.getNumberSum(textarea.value);
+  numberSumResult.innerHTML = "Suma de números: " + analyzer.getNumberSum(textarea.value);
 
   //botón reinicio
   const botonReiniciar = document.getElementById("reset-button")
   botonReiniciar.addEventListener('click', () => {
     textarea.value = textoBienvenida;
+    //textarea.value = ""
     wordCountResult.textContent = "Palabras: 0"
     averageWordLengthResult.textContent = "Longitud media de palabras: 0"
     characterCountResult.textContent = "Caracteres: 0"
