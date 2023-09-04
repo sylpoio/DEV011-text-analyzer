@@ -1,10 +1,6 @@
 const analyzer = {
-  
+
   getWordCount: (text) => {
-    if (!text.trim()){
-      return 0;
-    }
-    
     //TODO: esta función debe retornar el recuento de palabras que se encuentran en el parámetro `text` de tipo `string`.
     const wordCount = text.trim().split(" ").length;
 
@@ -59,7 +55,7 @@ const analyzer = {
         numberSum += parseFloat(numbers[i])
       }
     }
-    //const numbers=text.match(/\d+(\.\d+)?/g).length;v
+    //const numbers=text.match(/\d+(\.\d+)?/g).length;
     //const numberSum=numbers.reduce((a, b) => parseFloat(a) + parseFloat(b), 0);
     return numberSum
   },
